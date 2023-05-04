@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------------------------------------
+Implementación gramática SQL con CRUD en ANTLR4 - Miguel Thomas, Ivan Rodriguez, Miguel Gonzalez y Juan Bernal
+--------------------------------------------------------------------------------------------------------------
+
+La presente carpeta contiene los archivos respectivos a la implementación de la gramática desarrollada para los puntos 4 y 5 del parcial
+Sus funciones son:
+	- Realizar lectura y procesamiento de datos por medio de python mediante una gramática de ANTLR4.
+	- Realizar la creación, lectura, actualización y eliminación de tablas dentro de una base de datos SQL en python (CRUD).
+	
+Contenido:
+	- Carpeta "Punto 4" --> Contiene la solución al literal 4 del parcial, donde se declara la gramática a ser utilizada para la base de datos con CRUD: 
+		* Los archivos para la carpeta "Punto 5" se crean con el comando "antlr4 -Dlanguage=Python3 grammar/pockets.g4 -o gramatica.g4"
+	- Carpeta "Punto 5" --> Contiene todos los archivos generados para el funcionamiento de la gramática en python, adicionando el archivo __init__.py (creado manualmente).
+		* Para este punto, el archivo __init__ es creado manualmente desde 0, implementando cada uno de los métodos para hacer que todo el programa funcione correctamente.
+
+Ejecución:
+	- Usar el comando "python __init__.py" en cualquiera de los 2 directorios dentro de la carpeta "Punto 5", esto comenzará la ejecución del programa y hará posible el uso de los comandos de prueba expuestos en el archivo "comandos_prueba.txt".
+	- Se puede terminar la ejecución escribiendo "exit" o "EXIT".

@@ -1,0 +1,4 @@
+CREATE FILE ficha.txt (nombre, edad)
+INSERT INTO FILE ficha.txt (edad) ROWS (18, 20)
+DELETE FILE ficha.txt
+SELECT nombres FROM FILE ficha.txt

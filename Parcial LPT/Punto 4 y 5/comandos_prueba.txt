@@ -1,0 +1,4 @@
+CREATE TABLE tablaUno (nombre, edad)
+READ TABLE tablaUno
+UPDATE INTO TABLE tablaUno (nombre) ROWS (Miguel, Ivan)
+DELETE TABLE tablaUno

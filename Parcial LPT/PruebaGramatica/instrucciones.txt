@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------------------
+Gramática de prueba implementada de la página:
+	https://medium.com/@sasidharc/build-sql-parser-using-antlr4-part1-2044916a8406
+---------------------------------------------------------------------------------------
+
+La presente carpeta contiene los archivos respectivos a la implementación de la gramática sugerida en clase
+Sus funciones son:
+	- Realizar lectura y procesamiento de datos por medio de python.
+	- Simular la creación, insersión de datos, borrado y selección de un archivo en cuestión por medio de un Lexer, un Parser y un Listener.
+	
+Contenido:
+	- Carpeta "grammar" --> Contiene la gramática a usar, de donde se generan los archivos de la carpeta "pockets" usando el comando: 
+		* "antlr4 -Dlanguage=Python3 grammar/pockets.g4 -o pockets"
+	- Carpeta "pockets" --> Contiene todos los archivos generados para el funcionamiento de la gramática en python, adicionando el archivo __init__.py (creado manualmente).
+
+Ejecución:
+	- Usar el comando "python __init__.py" en cualquiera de los directorios posibles, esto comenzará la ejecución del programa y hará posible el uso de los comandos de prueba expuestos en el archivo "comandos_prueba.txt".
+	- Se puede terminar la ejecución escribiendo "exit" o "EXIT".
